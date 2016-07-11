@@ -1,13 +1,9 @@
 #!/usr/bin/env python
 
 '''
-this code can be used to move the turtlebot
-
-node name will be mypub.
 information will be published on cmd_vel_mux/input/navi as a twist message
 you can change gogo.linear or .angular values to different movement types
 rate is 10hz queue size is 10
-
 '''
 
 import rospy
