@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+'''
+if you have a map file you can use this to go to a location just get the coords from rviz you wish to go
+and put them in position ...
+'''
+
 import rospy
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 import actionlib
